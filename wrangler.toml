@@ -12,8 +12,7 @@ enabled = false
 [[d1_databases]]
 binding = "DB"
 database_name = "localspace-downloads"
-# Filled in after `npx wrangler d1 create localspace-downloads`.
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "9da33545-5456-4aca-aa42-175fa38d2d7a"
 
 # Empty until the release is published: an empty URL answers "not published
 # yet" and counts nothing. STATS_KEY is a secret, set with
