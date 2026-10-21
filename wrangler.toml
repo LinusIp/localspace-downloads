@@ -3,6 +3,8 @@ name = "localspace"
 main = "src/index.js"
 compatibility_date = "2026-10-01"
 workers_dev = true
+# Only the one address above; no per-version preview addresses.
+preview_urls = false
 send_metrics = false
 
 # No request logs are kept.
