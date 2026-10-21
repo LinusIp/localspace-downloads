@@ -1,0 +1,23 @@
+# Deployed by hand with `npx wrangler deploy`, only on the founder's go.
+name = "localspace"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+send_metrics = false
+
+# No request logs are kept.
+[observability]
+enabled = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "localspace-downloads"
+# Filled in after `npx wrangler d1 create localspace-downloads`.
+database_id = "00000000-0000-0000-0000-000000000000"
+
+# Empty until the release is published: an empty URL answers "not published
+# yet" and counts nothing. STATS_KEY is a secret, set with
+# `npx wrangler secret put STATS_KEY`, never written here.
+[vars]
+WINDOWS_URL = ""
+PORTABLE_URL = ""
