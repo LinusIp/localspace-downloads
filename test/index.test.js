@@ -47,7 +47,7 @@ function env(extra = {}) {
 }
 
 function get(path, headers = {}, method = "GET") {
-  return new Request(`https://localspace.locallabs.workers.dev${path}`, {
+  return new Request(`https://localspace.locallabs-io.workers.dev${path}`, {
     method,
     headers: { "User-Agent": CHROME, ...headers },
   });
