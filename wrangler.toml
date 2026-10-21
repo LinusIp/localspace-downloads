@@ -18,5 +18,5 @@ database_id = "9da33545-5456-4aca-aa42-175fa38d2d7a"
 # yet" and counts nothing. STATS_KEY is a secret, set with
 # `npx wrangler secret put STATS_KEY`, never written here.
 [vars]
-WINDOWS_URL = ""
-PORTABLE_URL = ""
+WINDOWS_URL = "https://github.com/LinusIp/localSpace-releases/releases/download/v0.2.0-preview.1/localSpace-0.2.0-920b7123-windows-x64-setup.exe"
+PORTABLE_URL = "https://github.com/LinusIp/localSpace-releases/releases/download/v0.2.0-preview.1/localSpace-0.2.0-920b7123-windows-x64-portable.zip"
